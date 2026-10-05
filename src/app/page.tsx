@@ -1,9 +1,14 @@
-import Image from "next/image";
+import Footer from "@/components/Footer";
+import Menu from "@/components/Menu";
 
-export default function Home() {
+const Home = () => {
   return (
     <div>
-      <h1>Hello world!</h1>
+      <Menu /> <br />
+      <h2>Bem-vindo WC</h2>
+      <Footer />
     </div>
   );
-}
+};
+
+export default Home;
